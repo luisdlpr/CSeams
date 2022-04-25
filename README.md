@@ -17,6 +17,7 @@ Seams is a web service built using Python for its backend similar to MS Teams.  
 
 ## Install and Run
 - Install Python 3.7.3
+- Clone repository
 - Install module requirements listed in requirements.txt using the command ``` pip3 install -r requirements.txt ```.  If errors with pg_config occur, try running this command ``` sudo apt install libpq-dev ```.
 - navigate to path ``` .../backend ``` and start server running command ``` python3 -m src.server ```
 - In a seperate terminal window, navigate to path ``` .../frontend ``` and run the command ``` python3 frontend.py 8021 ``` where 8021 is the default port.  This can be changed in ``` .../backend/src/config.py ```
