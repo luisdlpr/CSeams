@@ -10,6 +10,18 @@ Seams is a web service built using Python for its backend similar to MS Teams.  
 
 ![channel](images/channel.png)
 
+## Features
+- Persistent data.
+- Register users and login to create a session, logout to end your session.  Accounts can also be recovered using email.  Passwords stored are hashed.
+- Create and delete channels.  Channels can be joined and invites sent.  Posts can be made in channels.  Users can be promoted and demoted as channel owners
+- Direct messaging between users.
+- User details can be changed in the profile section including profile pictures.
+- Notifications.
+- Message searching, sharing, pinning, and reacting.
+- Time delayed message sending (send later).
+- Channel Standup feature, where users will submit their standups to a channel within a given time frame and will be sent once time is elapsed.
+- User statistics.
+
 ## Technologies
 - Python3
 - Flask
