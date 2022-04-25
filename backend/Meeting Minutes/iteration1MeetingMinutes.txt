@@ -1,0 +1,126 @@
+****************************************************************************************************************************************
+
+[Meeting 1, 23/2/2022, 1200-1330] - Recorded by Luis
+
+Attendees:
+    Luis
+    Reuel
+    Westley
+    Amy
+
+Agenda:
+    Discuss approach on major project part 1.
+
+Discussion Points:
+    Break task down into functions and divide among us.
+        auth_login_v1 == Amy
+        auth_register == Amy
+        channels_create == Westley
+        channels_list == Westley
+        channel_listall == Westley
+        channel_details == Luis
+        channel_join == Luis
+        channel_invite == Reuel
+        channel_messages == Reuel
+        clear == Luis
+    
+    Focus on first creating tests using black-box method focusing ensuring correct operation of each function. (TBC by Saturday)
+    
+    Created rough schedule/plan for when tasks should be completed.
+        Wk2 Saturday - Have tests completed.
+        Wk3 Friday - Have functions implemented and attempt merge.
+        Wk3 Saturday - meet and resolve merge conflicts and final checks for functionality.
+
+****************************************************************************************************************************************
+
+[Meeting 2, 26/2/2022, 1330-1530] - Recorded by Reuel
+
+Attendees:
+    Luis
+    Reuel
+    Westley
+    Amy
+
+Agenda:
+    Review test function implementation.
+    Standardise function naming conventions and data storage method.
+
+Discussion Points:
+    Provide feedback for test function implementations
+        Key remarks:
+            ALL - Avoid usage of non test funcitons within test files 
+            ALL - Use fixtures to obtain test data
+    
+    Allocate high priority tasks
+        Reuel - Construct reliable fixtures for the rest of the team - 
+        Luis  - Implement clear_v1
+        Westley - write schama for data_store internal structure 
+    
+    Set new deadline for test function completion
+        Wk3 Wednesday -  Have tests completed.
+
+**************************************************************************************************************************************
+[Meeting 3 - 2/03/2022, 1200-1400] - Recorded by Amy
+Attendees:
+    Luis    
+    Reuel    
+    Westley    
+    Amy
+
+Agenda:    
+    Review test/function implementation 
+
+Discussion Points:   
+    Reviewing created tests/ functions
+    Reviewing the programs merged into the master branch
+
+    Key Points:
+        - Need to apply concept of black box testing to our tests (i.e. Remove mentions of data_store)
+        - Revise master branch
+        - Create/amend test files on another branch before merging into master
+
+Deadline for Friday Wk3 remains:
+    Tests/Functions should be ready for merging onto the master branch
+
+**************************************************************************************************************************************
+[Meeting 4 - 4/03/2022, 1400-2000] - Recorded by Amy
+
+Attendees:
+    Luis    
+    Reuel    
+    Westley    
+    Amy
+
+Agenda:
+    Merge all functions into one testing branch
+    Reviewing and fixing code style in functions and tests
+
+Discussion Points
+    Merge functions and their tests into the testing branch one-by-one
+    Ensure functions are working together passing tests when merged into the testing branch
+    Ensure functions are readable and adhere to code style criteria
+
+Deadline of Sunday Wk3:
+    All tests and functions should be merged into the master branch
+
+**************************************************************************************************************************************
+[Meeting 5 - 16/03/2022, 1200-1400] - Recorded by Westley
+
+Attendees:
+    Luis    
+    Reuel    
+    Westley    
+    Amy
+
+Agenda:
+    Sorting out some queries regarding JWTs and iteration 2.
+    Implementing auth_register on the HTTP level.
+
+Discussion Points
+    Figuring out what should the secret key be for encoding JWTs.
+
+Deadline of Sunday Wk5:
+    Get auth_register to work on the HTTP level.
+    Decide on the secret key.
+    Make HTTP tests for iteration 1 and iteration 2 functions.
+    Implementation of the functions if possible.

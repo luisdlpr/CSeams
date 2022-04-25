@@ -1,0 +1,111 @@
+****************************************************************************************************************************************
+
+[Meeting 1, 30/3/2022, 1200-1400] - Recorded by Amy
+
+Attendees:
+    Luis
+    Reuel
+    Westley
+    Amy
+
+Agenda:
+    Discuss failing tests in iteration 2 and any fixes
+    Discuss iteration 3 specification
+
+Discussion Points:
+    Review failed course tests for iteration 2 and possibly request a rerun by the end of the week
+    
+    Allocated iteration 3 functions to each member:
+        Reuel
+        message/share/v1
+        message/react/v1 message/unreact/v1
+        message/pin/v1 message/unpin/v1
+
+        Luis
+        standup/start/v1
+        standup/active/v1
+        standup/send/v1
+
+        Amy
+        search/v1
+        auth/passwordreset/request/v1 auth/passwordreset/reset/v1
+        message/sendlater/v1 message/sendlaterdm/v1
+
+        Westley
+        notifications/get/v1
+        user/profile/uploadphoto/v1
+        user/stats/v1 users/stats/v1
+
+    Scheduled and planned a brief timeline for Iteration 3
+        Wk 8 - Functions completed by Sunday
+        Wk 9 - Do report
+             - Have fixes for implementation completed by Friday
+
+****************************************************************************************************************************************
+[Meeting 2, 6/4/2022, 1200-1400] - Recorded by Amy
+
+Attendees:
+    Luis
+    Reuel
+    Westley
+    Amy
+
+Agenda:
+    Discuss issues regarding user_stats and workplace_stats
+    Discuss and possibly reallocate functions between members
+
+Discussion Points:
+    Review what each member has done so far (ie. which functions or tests are finished)
+    
+    Reallocated some iteration 3 functions
+        Reuel (SAME)
+        message/share/v1
+        message/react/v1 message/unreact/v1
+        message/pin/v1 message/unpin/v1
+
+        Luis
+        standup/start/v1
+        standup/active/v1
+        standup/send/v1
+        message/sendlater/v1 message/sendlaterdm/v1 (NEW)
+
+        Amy 
+        search/v1
+        auth/passwordreset/request/v1 auth/passwordreset/reset/v1
+
+        Westley
+        notifications/get/v1
+        user/profile/uploadphoto/v1
+
+        (DEFERRED FOR NOW)
+        user/stats/v1 users/stats/v1
+
+    New Schedule for week 8:
+        - Week 8 - Friday - have majority of functions done (excluding user/stats/v1, users/stats/v1)
+                          - figure how to implement user/stats/v1, users/stats/v1
+    Next meeting planned for Wk 9
+
+****************************************************************************************************************************************
+[Meeting 3, 13/4/2022, 1200-1400] - Recorded by Reuel
+
+Attendees:
+    Luis
+    Reuel
+    Westley
+    Amy
+
+Agenda:
+    Plan for the completion of iteration 3 requirements
+    Discuss final implementation details before deployement
+
+Discussion Points:
+    Review what completed functions can be improved and how much of the requirements is left to complete.
+    Analysis & specification and validation to be completed by any member before the end of the week. 
+    Functions will be looked at after the requirements is mostly done.
+
+    Schedule for week 9:
+        - Week 9 - Friday - complete Analysis & specification and validation
+                          - Polish functions in preparation for final push
+
+    Next meeting planned for Wk 8 Friday
+**********************************************************************************************************************************

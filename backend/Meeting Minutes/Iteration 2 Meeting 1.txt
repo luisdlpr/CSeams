@@ -1,0 +1,27 @@
+****************************************************************************************************************************************
+
+[Meeting 1, 23/3/2022, 1500-1600] - Recorded by Luis
+
+Attendees:
+    Luis
+    Reuel
+    Westley
+    Amy
+
+Agenda:
+    Discuss data persistence, and sessions.
+
+Discussion Points:
+    Implement functions for data persistence and sessions in src/helper.py
+
+    load pickle on server startup and save pickle on each function call.
+    `save()`
+
+    session timeout is not specified in assignment wiki besides at logout.  Therefore we will assume sessions remain valid until logout (do not     timeout).
+
+    token payload - user_id and session_id
+
+Action Plan:
+    implement remaining function and integrate sessions_id
+
+****************************************************************************************************************************************

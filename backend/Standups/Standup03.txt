@@ -1,0 +1,32 @@
+Standup Meeting - 24.03.22
+
+Luis:
+What I've done: 
+- added implementation and tests for addowner removeowner
+What I'm planning to do:
+- implement admin user remove and userpermission change
+- edit functions to account for global admins
+- implement pickling and session checking
+
+Westley:
+What I've done:
+- wrote tests and basic implementation for user functions.
+What I'm planning to do:
+- Get the user functions to work.
+- See if I can get any of the other interfaces to work.
+
+Reuel:
+What I've done:
+- moved all iteration 1 functions and tests to http
+- made stub tests for message/send/v1
+What I'm planning to do:
+- implement tests for all message/x function
+- implement tests for dm/message/v1
+- implement message/send/v1
+
+Amy:
+What I've done:
+- wrote all auth functions and implemented HTTP functionality
+What I'm planning to do:
+- make tokens be stored in a list for the user dict
+- make appropriate changes to account for that in the other functions(esp. auth) and affected tests

@@ -1,0 +1,30 @@
+Standup Meeting - 23.03.22
+
+Luis:
+Progress: finished full implementation of details, join, clear, and leave channel.
+Current Task: today i will be working on the remaining functions starting with add owner and going one by one.
+
+Westley:
+Progress: implemented dm functions, and I brought channels.py functions to the HTTP level.
+Added a data persistent thing to my branch, it just save the data store every time a route is called.
+Current Task:  figuring out how sessions should work.
+Might make code level tests for dms.
+Figure out how to identify a removed user.
+
+Reuel:
+Progress:
+- completed all tests for channel/messages/v2
+- created helpers.py 
+Current Task:
+- finish all tests for channel/invite/v2
+- implement channe/messages/v2 and channel/invite/v2
+- start on iteration 2 tests
+
+Amy:
+Progress: - finished all tests for auth login/logout and user functions
+Current Task: 
+- make helpers.py
+- try to get auth login/logout done in HTTP
+- start on user functions (python) 
+Issues encountered:
+- need to redo auth register to take in sessions_id 😦

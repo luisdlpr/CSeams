@@ -1,0 +1,30 @@
+Standup Meeting - 22.03.22
+
+Luis:
+Progress:
+Completed basic testing and HTTP implementation for channel_join, channel_details, and clear. Waiting on auth functions to finalise testing. 
+
+Current Task:
+Starting on 
+- channel/leave/v1
+- channel/addowner/v1
+- channel/removeowner/v1
+
+Westley:
+Progress:
+Implemented dm functions, and I brought channels.py functions to the HTTP level.
+
+Current Task:
+figuring out how sessions and data persistence should work, perhaps assist someone else's part if they need to.
+
+Reuel:
+Progress:
+
+Current Task:
+
+
+Amy:
+Progress:
+I've made almost all of my tests so far. Tho I'm kinda confused by some of the token stuff (mostly on how to check validity and invalidate it upon logout) 
+
+Current Task:
